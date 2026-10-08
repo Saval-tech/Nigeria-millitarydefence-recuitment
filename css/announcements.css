@@ -1,0 +1,662 @@
+/* ANNOUNCEMENTS */
+
+.page-announcements {
+   background: #f4f6f4;
+}
+
+
+/*  HERO */
+
+.announcement-hero {
+   padding: 60px 20px;
+   background: #050505;
+   color: #fff;
+}
+
+.announcement-hero h1 {
+   margin: 0 0 10px;
+   font-size: 32px;
+}
+
+.announcement-hero p {
+   max-width: 650px;
+   margin: 0;
+   color: #d5d5d5;
+   font-size: 14px;
+   line-height: 1.6;
+}
+
+
+/*MAIN LAYOUT */
+
+.announcement-layout {
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+/* LEFT AUDIO */
+
+.audio-column {
+   width: 30%;
+   min-width: 0;
+}
+
+
+/* AUDIO CARD */
+
+.card {
+   width: 100%;
+   padding: 18px;
+   margin: 0;
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+
+/* MAIN AUDIO */
+
+.audio-announcement {
+   margin-bottom: 25px;
+}
+
+.audio-announcement h2 {
+   margin: 0 0 12px;
+   color: #073d0a;
+   font-size: 18px;
+}
+
+.audio-announcement audio {
+   display: block;
+   width: 100%;
+   max-width: 100%;
+}
+
+
+/*MORALS*/
+
+.morals-audio h1 {
+   margin: 0 0 15px;
+   color: #4b5320;
+   font-size: 21px;
+}
+
+.audio-list {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.audio-item {
+   width: 100%;
+   padding: 12px;
+   background: #f4f6f4;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+}
+
+.audio-item h3 {
+   margin: 0 0 8px;
+   color: #111;
+   font-size: 12px;
+}
+
+.audio-item audio {
+   display: block;
+   width: 100%;
+   max-width: 100%;
+}
+
+
+/* CENTER ANNOUNCEMENTS*/
+
+.announcement-list {
+   width: 45%;
+   min-width: 0;
+}
+
+
+/* ANNOUNCEMENT CARD */
+
+.announcement-card {
+   display: flex;
+   align-items: flex-start;
+   gap: 15px;
+
+   width: 100%;
+   margin: 0 0 15px;
+   padding: 18px;
+
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+
+   box-sizing: border-box;
+}
+
+
+/* DATE */
+
+.announcement-date {
+   width: 65px;
+   min-width: 65px;
+   height: 65px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   background: #4b5320;
+   color: #fff;
+   border-radius: 4px;
+}
+
+.announcement-date strong {
+   font-size: 22px;
+}
+
+.announcement-date span {
+   margin-top: 3px;
+   color: #c8d0c8;
+   font-size: 8px;
+}
+
+
+/* CONTENT */
+
+.announcement-content {
+   flex: 1;
+   min-width: 0;
+}
+
+.announcement-label {
+   color: #08720b;
+   font-size: 8px;
+   font-weight: bold;
+}
+
+.announcement-content h2 {
+   margin: 5px 0;
+   color: #073d0a;
+   font-size: 16px;
+}
+
+.announcement-content p {
+   margin: 0 0 10px;
+   color: #666;
+   font-size: 11px;
+   line-height: 1.5;
+}
+
+.announcement-content a {
+   color: #08720b;
+   font-size: 10px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.announcement-content a i {
+   margin-left: 4px;
+}
+
+
+/*  RIGHT SIDEBAR*/
+
+.announcement-sidebar {
+   width: 20%;
+   min-width: 0;
+}
+
+
+/* IMPORTANT */
+
+.notice-box {
+   margin-bottom: 15px;
+   padding: 14px;
+
+   background: #4b5320;
+   color: #fff;
+   border-radius: 4px;
+
+   box-sizing: border-box;
+}
+
+.notice-box h3 {
+   margin: 0 0 8px;
+   color: #c4b56a;
+   font-size: 11px;
+}
+
+.notice-box p {
+   margin: 0;
+   color: #ddd;
+   font-size: 9px;
+   line-height: 1.5;
+}
+
+
+/* QUICK LINKS */
+
+.notice-links {
+   padding: 14px;
+
+   background: #fff;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+
+   box-sizing: border-box;
+}
+
+.notice-links h3 {
+   margin: 0 0 8px;
+   color: #073d0a;
+   font-size: 10px;
+}
+
+.notice-links a {
+   display: flex;
+   align-items: center;
+   gap: 7px;
+
+   padding: 9px 0;
+
+   border-bottom: 1px solid #eee;
+
+   color: #555;
+   font-size: 9px;
+   text-decoration: none;
+}
+
+.notice-links a:last-child {
+   border-bottom: none;
+}
+
+.notice-links a i {
+   width: 14px;
+   color: #08720b;
+}
+
+
+/*  LARGE TABLET */
+
+@media (max-width: 1100px) {
+
+   .announcement-layout {
+      gap: 15px;
+   }
+
+   .audio-column {
+      width: 29%;
+   }
+
+   .announcement-list {
+      width: 45%;
+   }
+
+   .announcement-sidebar {
+      width: 21%;
+   }
+
+   .card {
+      padding: 15px;
+   }
+
+   .announcement-card {
+      padding: 15px;
+   }
+
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+   .announcement-layout {
+      gap: 12px;
+   }
+
+   .audio-column {
+      width: 29%;
+   }
+
+   .announcement-list {
+      width: 45%;
+   }
+
+   .announcement-sidebar {
+      width: 22%;
+   }
+
+   .card {
+      padding: 12px;
+   }
+
+   .audio-announcement h2 {
+      font-size: 16px;
+   }
+
+   .morals-audio h1 {
+      font-size: 19px;
+   }
+
+   .audio-item {
+      padding: 10px;
+   }
+
+   .announcement-card {
+      gap: 10px;
+      padding: 13px;
+   }
+
+   .announcement-date {
+      width: 55px;
+      min-width: 55px;
+      height: 55px;
+   }
+
+   .announcement-date strong {
+      font-size: 19px;
+   }
+
+   .announcement-content h2 {
+      font-size: 14px;
+   }
+
+   .announcement-content p {
+      font-size: 10px;
+   }
+
+   .notice-box,
+   .notice-links {
+      padding: 11px;
+   }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+   /* HERO */
+
+   .announcement-hero {
+      padding: 40px 15px;
+   }
+
+   .announcement-hero h1 {
+      font-size: 25px;
+   }
+
+   .announcement-hero p {
+      font-size: 12px;
+   }
+
+
+   /* MAIN */
+
+   .announcement-layout {
+      display: block;
+   }
+
+
+   /* AUDIO */
+
+   .audio-column {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .card {
+      padding: 16px;
+   }
+
+   .audio-announcement {
+      margin-bottom: 25px;
+   }
+
+   .audio-announcement h2 {
+      font-size: 20px;
+   }
+
+   .audio-announcement audio {
+      width: 100%;
+   }
+
+
+   /* MORALS */
+
+   .morals-audio h1 {
+      font-size: 22px;
+   }
+
+   .audio-list {
+      gap: 12px;
+   }
+
+   .audio-item {
+      width: 100%;
+      padding: 12px;
+   }
+
+   .audio-item h3 {
+      font-size: 13px;
+   }
+
+   .audio-item audio {
+      width: 100%;
+   }
+
+
+   /* ANNOUNCEMENTS */
+
+   .announcement-list {
+      width: 100%;
+   }
+
+   .announcement-card {
+      width: 100%;
+      gap: 12px;
+      padding: 16px;
+   }
+
+   .announcement-date {
+      width: 60px;
+      min-width: 60px;
+      height: 60px;
+   }
+
+   .announcement-date strong {
+      font-size: 20px;
+   }
+
+   .announcement-date span {
+      font-size: 8px;
+   }
+
+   .announcement-content h2 {
+      font-size: 15px;
+   }
+
+   .announcement-content p {
+      font-size: 11px;
+   }
+
+
+   /* SIDEBAR */
+
+   .announcement-sidebar {
+      width: 100%;
+      margin-top: 20px;
+   }
+
+   .notice-box {
+      padding: 15px;
+   }
+
+   .notice-links {
+      padding: 15px;
+   }
+
+}
+
+
+/* SMALL MOBILE */
+
+@media (max-width: 380px) {
+
+   .announcement-hero {
+      padding: 30px 10px;
+   }
+
+   .announcement-hero h1 {
+      font-size: 22px;
+   }
+
+   .announcement-hero p {
+      font-size: 11px;
+   }
+
+
+   .card {
+      padding: 12px;
+   }
+
+   .audio-announcement h2 {
+      font-size: 18px;
+   }
+
+   .morals-audio h1 {
+      font-size: 20px;
+   }
+
+   .audio-item {
+      padding: 10px;
+   }
+
+
+   .announcement-card {
+      display: block;
+      padding: 14px;
+   }
+
+   .announcement-date {
+      margin-bottom: 10px;
+   }
+
+   .announcement-content h2 {
+      font-size: 14px;
+   }
+
+   .announcement-content p {
+      font-size: 10px;
+   }
+
+
+   .notice-box,
+   .notice-links {
+      padding: 13px;
+   }
+
+}
+
+
+/*4K */
+
+@media (min-width: 1920px) {
+
+   .announcement-hero {
+      padding: 90px 40px;
+   }
+
+   .announcement-hero h1 {
+      font-size: 42px;
+   }
+
+   .announcement-hero p {
+      font-size: 17px;
+   }
+
+
+   .announcement-layout {
+      gap: 30px;
+   }
+
+
+   /* AUDIO */
+
+   .audio-column {
+      width: 30%;
+   }
+
+   .card {
+      padding: 25px;
+   }
+
+   .audio-announcement h2 {
+      font-size: 24px;
+   }
+
+   .morals-audio h1 {
+      font-size: 27px;
+   }
+
+   .audio-list {
+      gap: 15px;
+   }
+
+   .audio-item {
+      padding: 16px;
+   }
+
+   .audio-item h3 {
+      font-size: 15px;
+   }
+
+
+   /* CENTER */
+
+   .announcement-list {
+      width: 45%;
+   }
+
+   .announcement-card {
+      padding: 25px;
+   }
+
+   .announcement-date {
+      width: 80px;
+      min-width: 80px;
+      height: 80px;
+   }
+
+   .announcement-date strong {
+      font-size: 27px;
+   }
+
+   .announcement-content h2 {
+      font-size: 20px;
+   }
+
+   .announcement-content p {
+      font-size: 13px;
+   }
+
+
+   /* SIDEBAR */
+
+   .announcement-sidebar {
+      width: 20%;
+   }
+
+   .notice-box,
+   .notice-links {
+      padding: 18px;
+   }
+
+}

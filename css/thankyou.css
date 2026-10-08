@@ -1,0 +1,260 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 30px 15px;
+     background: #f3f5f3;
+     font-family: Arial, sans-serif;
+     color: #222;
+ }
+
+ .success-page {
+     width: 100%;
+     max-width: 750px;
+ }
+
+ .success-box {
+     width: 100%;
+     background: #fff;
+     border-radius: 7px;
+     padding: 45px 40px;
+     text-align: center;
+     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
+ }
+
+ .success-icon {
+     width: 75px;
+     height: 75px;
+     margin: 0 auto 20px;
+     border-radius: 50%;
+     background: #08720b;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 38px;
+     font-weight: bold;
+ }
+
+ .success-box h1 {
+     color: #073d0a;
+     font-size: 28px;
+     margin-bottom: 12px;
+ }
+
+ .success-message {
+     color: #555;
+     font-size: 15px;
+     line-height: 1.6;
+     margin-bottom: 25px;
+ }
+
+ .application-id-box {
+     width: 100%;
+     background: #f1f4f1;
+     padding: 20px;
+     margin: 25px 0;
+ }
+
+ .application-id-box span {
+     display: block;
+     color: #555;
+     font-size: 13px;
+     margin-bottom: 8px;
+ }
+
+ .application-id {
+     color: #073d0a;
+     font-size: 24px;
+     font-weight: bold;
+     letter-spacing: 2px;
+ }
+
+ .notice {
+     color: #555;
+     font-size: 13px;
+     line-height: 1.6;
+     margin-bottom: 25px;
+ }
+
+ .button-group {
+     display: flex;
+     justify-content: center;
+     gap: 12px;
+     flex-wrap: wrap;
+ }
+
+ .button {
+     display: inline-block;
+     min-width: 180px;
+     padding: 13px 20px;
+     border-radius: 4px;
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: bold;
+ }
+
+ .button-primary {
+     background: #4b5320;
+     color: #fff;
+ }
+
+ .button-primary:hover {
+     background: #005b00;
+ }
+
+ .button-secondary {
+     border: 1px solid #08720b;
+     color: #08720b;
+     background: #fff;
+ }
+
+ .button-secondary:hover {
+     background: #f1f4f1;
+ }
+
+ /* TABLET */
+
+ @media (max-width: 700px) {
+
+     .success-box {
+         padding: 35px 25px;
+     }
+
+     .success-box h1 {
+         font-size: 24px;
+     }
+
+     .success-message {
+         font-size: 14px;
+     }
+ }
+
+ /* MOBILE */
+
+ @media (max-width: 600px) {
+
+     body {
+         padding: 20px 10px;
+     }
+
+     .success-box {
+         padding: 30px 18px;
+         border-top-width: 5px;
+     }
+
+     .success-icon {
+         width: 65px;
+         height: 65px;
+         font-size: 32px;
+     }
+
+     .success-box h1 {
+         font-size: 21px;
+     }
+
+     .success-message {
+         font-size: 12px;
+     }
+
+     .application-id-box {
+         padding: 16px 10px;
+     }
+
+     .application-id {
+         font-size: 19px;
+     }
+
+     .notice {
+         font-size: 11px;
+     }
+
+     .button-group {
+         display: block;
+     }
+
+     .button {
+         width: 100%;
+         margin-bottom: 10px;
+     }
+ }
+
+ /* SMALL MOBILE */
+
+ @media (max-width: 380px) {
+
+     body {
+         padding: 15px 7px;
+     }
+
+     .success-box {
+         padding: 25px 13px;
+     }
+
+     .success-box h1 {
+         font-size: 18px;
+     }
+
+     .application-id {
+         font-size: 17px;
+     }
+
+     .notice {
+         font-size: 10px;
+     }
+ }
+
+ /* 4K */
+
+ @media (min-width: 1920px) {
+
+     .success-page {
+         max-width: 900px;
+     }
+
+     .success-box {
+         padding: 60px;
+     }
+
+     .success-icon {
+         width: 95px;
+         height: 95px;
+         font-size: 48px;
+     }
+
+     .success-box h1 {
+         font-size: 36px;
+     }
+
+     .success-message {
+         font-size: 18px;
+     }
+
+     .application-id-box {
+         padding: 25px;
+     }
+
+     .application-id-box span {
+         font-size: 15px;
+     }
+
+     .application-id {
+         font-size: 30px;
+     }
+
+     .notice {
+         font-size: 15px;
+     }
+
+     .button {
+         font-size: 15px;
+         padding: 15px 25px;
+     }
+ }

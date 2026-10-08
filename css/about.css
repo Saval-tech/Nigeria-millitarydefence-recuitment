@@ -1,0 +1,565 @@
+/*ABOUT PAGE */
+
+.about-hero {
+   background: #050505;
+   color: #fff;
+   padding: 70px 0;
+}
+
+
+
+.about-hero h1 {
+   margin: 0 0 10px;
+   font-size: 32px;
+}
+
+.about-hero p {
+   max-width: 650px;
+   margin: 0;
+   color: #d5d5d5;
+   font-size: 14px;
+   line-height: 1.6;
+}
+
+
+/* INTRODUCTION */
+
+.about-introduction {
+   background: #fff;
+}
+
+.about-intro {
+   display: flex;
+   align-items: center;
+   gap: 60px;
+}
+
+.about-text {
+   flex: 1;
+}
+
+.section-label {
+   display: block;
+   color: #4b5320;
+   font-size: 12px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+
+.about-text h2,
+.section-heading h2,
+.mission-content h2 {
+   margin: 0 0 18px;
+   color: #111;
+   font-size: 32px;
+}
+
+.about-text p {
+   margin: 0 0 15px;
+   color: #555;
+   font-size: 15px;
+   line-height: 1.8;
+}
+
+/* ABOUT LOGO */
+
+.about-image {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.about-image img {
+   width: 400px;
+   height: 400px;
+   display: block;
+   object-fit: contain;
+}
+
+
+
+
+/*SECTION HEADING*/
+
+.section-heading {
+   max-width: 750px;
+   margin-bottom: 35px;
+}
+
+.section-heading p {
+   margin: 0;
+
+   color: #555;
+
+   font-size: 15px;
+   line-height: 1.7;
+}
+
+
+/* MILITARY SERVICES */
+
+.military-services {
+   background: #f5f5f5;
+}
+
+.service-cards {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+}
+
+.service-card {
+   flex: 1;
+
+   min-width: 250px;
+
+   background: #fff;
+
+   padding: 30px;
+
+   border: 1px solid #ddd;
+}
+
+.service-icon {
+   width: 65px;
+   height: 65px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   margin-bottom: 18px;
+
+   border-radius: 50%;
+
+   background: #0a0a0a;
+   color: #fff;
+
+   font-size: 27px;
+}
+
+.service-card h3 {
+   margin: 0 0 12px;
+
+   color: #111;
+
+   font-size: 21px;
+}
+
+.service-card p {
+   margin: 0 0 18px;
+
+   color: #555;
+
+   font-size: 14px;
+   line-height: 1.7;
+}
+
+.service-card a {
+   color: #4b5320;
+
+   font-size: 13px;
+   font-weight: 700;
+
+   text-decoration: none;
+}
+
+.service-card a i {
+   margin-left: 5px;
+}
+
+
+/* REQUIREMENTS */
+
+.recruitment-information {
+   background: #fff;
+}
+
+.requirements-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.requirement {
+   display: flex;
+
+   width: 45%;
+
+   gap: 18px;
+
+   padding: 25px;
+
+   background: #f7f7f7;
+
+
+}
+
+.requirement-icon {
+   width: 45px;
+   height: 45px;
+
+   flex-shrink: 0;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   background: #4b5320;
+   color: #fff;
+
+   font-size: 18px;
+}
+
+.requirement h3 {
+   margin: 0 0 8px;
+
+   color: #111;
+
+   font-size: 18px;
+}
+
+.requirement p {
+   margin: 0;
+
+   color: #555;
+
+   font-size: 13px;
+   line-height: 1.7;
+}
+
+
+/* HOW TO JOIN */
+
+.how-to-join {
+   background: #111;
+   color: #fff;
+}
+
+.how-to-join .section-label {
+   color: #fff;
+}
+
+.how-to-join .section-heading h2 {
+   color: #fff;
+}
+
+.join-steps {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.join-step {
+   flex: 1;
+
+   min-width: 170px;
+
+   padding: 25px;
+
+   border: 1px solid #333;
+}
+
+.join-step span {
+   display: block;
+
+   margin-bottom: 15px;
+
+   color: #4b5320;
+
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.join-step h3 {
+   margin: 0 0 10px;
+
+   font-size: 17px;
+}
+
+.join-step p {
+   margin: 0;
+
+   color: #ccc;
+
+   font-size: 13px;
+   line-height: 1.6;
+}
+
+
+/*WARNING */
+
+.recruitment-warning {
+   background: #f5f5f5;
+}
+
+.warning-box {
+   display: flex;
+   align-items: flex-start;
+
+   gap: 20px;
+
+   padding: 30px;
+
+   background: #111;
+   color: #fff;
+
+}
+
+.warning-icon {
+   color: #ac1e1e;
+
+   font-size: 30px;
+}
+
+.warning-box h2 {
+   margin: 0 0 12px;
+
+   font-size: 23px;
+}
+
+.warning-box p {
+   margin: 0 0 10px;
+
+   color: #ddd;
+
+   font-size: 14px;
+   line-height: 1.7;
+}
+
+.warning-box p:last-child {
+   margin-bottom: 0;
+}
+
+
+/* MISSION */
+
+.about-mission {
+   background: #fff;
+}
+
+.mission-content {
+   max-width: 850px;
+}
+
+.mission-content p {
+   margin: 0 0 15px;
+
+   color: #555;
+
+   font-size: 15px;
+   line-height: 1.8;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+   .about-intro {
+      gap: 30px;
+   }
+
+   .about-image {
+      width: 40%;
+   }
+
+   .about-image img {
+      height: 300px;
+   }
+
+   .service-card {
+      min-width: 28%;
+   }
+
+   .requirement {
+      width: 42%;
+   }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+   .about-hero {
+      padding: 50px 20px;
+   }
+
+   .about-hero h1 {
+      font-size: 32px;
+   }
+
+   .about-hero p {
+      font-size: 14px;
+   }
+
+   .about-intro {
+      display: block;
+   }
+
+   .about-image {
+      width: 100%;
+      margin-top: 30px;
+   }
+
+   .about-image img {
+      height: 280px;
+   }
+
+   .about-text h2,
+   .section-heading h2,
+   .mission-content h2 {
+      font-size: 27px;
+   }
+
+   .service-cards {
+      gap: 15px;
+   }
+
+   .service-card {
+      min-width: 45%;
+      padding: 20px;
+   }
+
+   .service-card h3 {
+      font-size: 18px;
+   }
+
+   .service-card p {
+      font-size: 12px;
+   }
+
+   .requirements-list {
+      display: block;
+   }
+
+   .requirement {
+      width: auto;
+      margin-bottom: 15px;
+      padding: 20px;
+   }
+
+   .join-steps {
+      display: block;
+   }
+
+   .join-step {
+      margin-bottom: 15px;
+   }
+
+   .warning-box {
+      padding: 20px;
+   }
+
+   .warning-box h2 {
+      font-size: 20px;
+   }
+
+}
+
+
+/* SMALL MOBILE*/
+
+@media (max-width: 380px) {
+
+   .about-hero h1 {
+      font-size: 27px;
+   }
+
+   .about-text h2,
+   .section-heading h2,
+   .mission-content h2 {
+      font-size: 24px;
+   }
+
+   .service-card {
+      min-width: 100%;
+   }
+
+   .requirement {
+      display: block;
+   }
+
+   .requirement-icon {
+      margin-bottom: 12px;
+   }
+
+   .warning-box {
+      display: block;
+   }
+
+   .warning-icon {
+      margin-bottom: 15px;
+   }
+
+}
+
+
+/*  4K / LARGE SCREENS */
+
+@media (min-width: 1920px) {
+
+   .about-hero {
+      padding: 100px 0;
+   }
+
+   .about-hero h1 {
+      font-size: 58px;
+   }
+
+   .about-hero p {
+      font-size: 20px;
+   }
+
+   .about-text h2,
+   .section-heading h2,
+   .mission-content h2 {
+      font-size: 42px;
+   }
+
+   .about-text p,
+   .mission-content p {
+      font-size: 18px;
+   }
+
+   .about-image img {
+      height: 500px;
+   }
+
+   .service-card {
+      padding: 40px;
+   }
+
+   .service-card h3 {
+      font-size: 25px;
+   }
+
+   .service-card p {
+      font-size: 16px;
+   }
+
+   .requirement {
+      padding: 35px;
+   }
+
+   .requirement h3 {
+      font-size: 22px;
+   }
+
+   .requirement p {
+      font-size: 16px;
+   }
+
+   .join-step h3 {
+      font-size: 21px;
+   }
+
+   .join-step p {
+      font-size: 16px;
+   }
+
+}
